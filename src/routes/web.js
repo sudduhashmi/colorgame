@@ -116,6 +116,7 @@ const initWebRouter = (app) => {
   });
   router.get("/home", homeController.homePage);
   router.get("/support", homeController.supportPage);
+  router.get("/how", homeController.howpage);
   router.get("/checkIn", middlewareController, homeController.checkInPage);
   router.get("/activity", middlewareController, homeController.activityPage);
   router.get("/dailytask", middlewareController, homeController.dailytaskPage);

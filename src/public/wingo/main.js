@@ -229,18 +229,23 @@ function selectActiveClock(currentTime) {
   document.querySelector(".min_t_3").classList.remove("active");
   document.querySelector(".min_t_5").classList.remove("active");
   document.querySelector(".min_t_10").classList.remove("active");
+  const timee = document.querySelector('.TimeLeft__C-name')
 
   switch (parseInt(currentTime)) {
     case 1:
+      timee.textContent='Win Go 1Min'
       document.querySelector(".min_t_1").classList.add("active");
       break;
     case 3:
+        timee.textContent='Win Go 3Min'
       document.querySelector(".min_t_3").classList.add("active");
       break;
     case 5:
+        timee.textContent='Win Go 5Min'
       document.querySelector(".min_t_5").classList.add("active");
       break;
     case 10:
+        timee.textContent='Win Go 30Sec'
       document.querySelector(".min_t_10").classList.add("active");
       break;
     default:

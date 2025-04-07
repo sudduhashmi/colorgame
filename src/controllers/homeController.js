@@ -47,6 +47,12 @@ const supportPage = async (req, res) => {
   return res.render("member/support.ejs", { telegram });
 };
 
+const howpage = async (req, res) => {
+
+
+  return res.render("member/how.ejs" );
+};
+
 const attendancePage = async (req, res) => {
   return res.render("checkIn/attendance.ejs");
 };
@@ -417,6 +423,7 @@ const homeController = {
   changeAvatarPage,
   invitationRulesPage,
   supportPage,
+  howpage,
 };
 
 export default homeController;

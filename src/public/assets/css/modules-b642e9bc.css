@@ -6486,7 +6486,7 @@ ul {
 }
 
 .van-checkbox__icon--checked .van-icon {
-    color: #003486;
+    color: #000000 !important;
     background-color: var(--van-checkbox-checked-icon-color);
     border-color: var(--van-checkbox-checked-icon-color)
 }

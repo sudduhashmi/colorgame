@@ -7760,10 +7760,10 @@ html:lang(ar) .explain .input .place-div[data-v-cb5583fe]:after {
 
 .recycleBtnD button[data-v-80a607a5] {
     width: 95%;
-    background: linear-gradient(180deg, #FFFFEB 0%, #FCED95 28.5%, #B57E30 80%, #FFD64A 100%);
+    background: linear-gradient(180deg, #2120fe 0%, #2120fe 28.5%, #2120fe 80%, #2120fe 100%);
     border-radius: .66667rem;
     border: none;
-    color: #030303;
+    color: #ffffff;
     padding: .26667rem 0;
     font-size: .45333rem
 }

@@ -50,6 +50,7 @@
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    <script src="/js/client.js"></script>
+   
 </head>
 
 <body class="" style="font-size: 12px;">
@@ -4153,8 +4154,8 @@
                <div data-v-ef5c8333="" class="addWithdrawType-top" id="main_account_info_holder"><img
                      onclick="handleOpenAddMethod()" data-v-ef5c8333="" src="/assets/png/add-1ad7f3f5.png"><span
                      data-v-ef5c8333="" id="add_method_type_text">Add a bank account number</span></div>
-               <div data-v-ef5c8333="" class="addWithdrawType-text">Need to add beneficiary information to be able to
-                  withdraw money</div>
+               <!-- <div data-v-ef5c8333="" class="addWithdrawType-text">Need to add beneficiary information to be able to
+                  withdraw money</div> -->
             </div><!--输入区-->
             <div data-v-cb5583fe="" class="explain">
                <div data-v-cb5583fe="" class="input">
@@ -4624,9 +4625,9 @@
       inputMoney = parseInt(MoneyAmountInput.value);
       console.log(inputMoney);
       if (inputMoney >= 100) {
-         $("#submit_withdraw_btn").css("background", "linear-gradient(90deg, #2b3270 0%, #22275b 100%)").prop("disabled", false);
+         $("#submit_withdraw_btn").css("background", "linear-gradient(90deg,  #c5aa0a  0%, #e88b14  100%)").prop("disabled", false);
       } else {
-         $("#submit_withdraw_btn").css("background", "linear-gradient(180deg, #cfd1de 0%, #c7c9d9 100%)").prop("disabled", false);
+         $("#submit_withdraw_btn").css("background", "linear-gradient(180deg, #000000 0%, #000000 100%)").prop("disabled", false);
       }
    };
 
