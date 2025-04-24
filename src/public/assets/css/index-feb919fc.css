@@ -60,7 +60,7 @@
   border: none;
   color: #fff;
   border-radius: 0.26667rem;
-  background: #0c1a98;
+  background: #ffffff;
 }
 .register__container-remember[data-v-51d668f5] {
   margin-top: 0.84rem;
@@ -89,7 +89,7 @@
   .van-checkbox
   .van-checkbox__label
   span {
-  color: #2b3270;
+  color: #ebd37d;
   font-size: 0.32rem;
 }
 .register__container-button[data-v-51d668f5] {

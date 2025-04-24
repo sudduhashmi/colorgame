@@ -1042,11 +1042,14 @@
   padding-inline-start: 0.4rem;
   font-size: 0.4rem;
   cursor: pointer;
+  background: #fff;
+    border-radius: 10px;
 }
 
 .dropdown__value span[data-v-482b13c8] {
   width: 0.90667rem;
   height: 1.17333rem;
+  color: #000;
 }
 
 .dropdown__value i[data-v-482b13c8] {
@@ -1058,6 +1061,7 @@
   transition:
     transform 0.3s ease,
     -webkit-transform 0.3s ease;
+    color: #000;
 }
 
 .dropdown__value .arrowActive[data-v-482b13c8] {

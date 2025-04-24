@@ -936,10 +936,10 @@
     position: absolute;
     width: 2.48rem;
     height: 1.17333rem;
-    color: var(--text_color_L2);
+    color: #1b1b1b;
     text-align: center;
     line-height: 1.17333rem;
-    background: #003486;
+    background: #fdfeff;
     outline: none;
     border-radius: .26667rem
 }
@@ -962,11 +962,13 @@
 }
 
 .dropdown__value i[data-v-5067ef5e] {
+    color: #000 !important;
     margin-left: .13333rem;
     -webkit-transition: -webkit-transform .3s ease;
     transition: -webkit-transform .3s ease;
     transition: transform .3s ease;
     transition: transform .3s ease, -webkit-transform .3s ease
+   
 }
 
 .dropdown__value .arrowActive[data-v-5067ef5e] {

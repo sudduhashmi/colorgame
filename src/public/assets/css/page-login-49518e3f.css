@@ -618,7 +618,7 @@
     font-size: .37333rem;
     border: none;
     border-radius: .26667rem;
-    background: #1c3295;
+    background: #ffffff;
     color: var(--text_color_L1)
 }
 
@@ -738,7 +738,7 @@
     font-size: .37333rem;
     border: none;
     border-radius: .26667rem;
-    background: #003486;
+    background: #ffffff;
     color: var(--text_color_L1)
 }
 
@@ -994,7 +994,7 @@
     font-size: .37333rem;
     border: none;
     border-radius: .26667rem;
-    background: #003486;
+    background: #ffffff;
 }
 
 html:lang(ar) .phoneInput__container-input input[data-v-50aa8bb0] {
